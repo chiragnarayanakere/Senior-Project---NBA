@@ -4,7 +4,7 @@ body {
     line-height: 1;
     padding: 0;
     margin: 0;
-    background-color: #c5c6c7;
+    background-color: lightgray;
 }
 
 .container {
@@ -129,8 +129,52 @@ header a:hover{
 /* footer */
 footer{
     padding: 10px;;
-    margin-top: 20px;
+    margin-top: 30px;
     color: white;
     background-color: #45a29e;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 99%;
+    
+}
+
+/* about page */
+#goal {
+    background: white;
+    color: black;
+    line-height: 1.5;
+    padding: 40px 50px 40px 50px;
+    margin: 20px 20% 20px 20%;
+    text-align: justify;
+}
+
+#goal h1 {
+    text-align: center;
+    font-size: 30px;
+    line-height: 15px;
+}
+
+/* technologies used */
+#team{
+    padding: 40px 50px 40px 50px;
+    margin: 20px 20% 20px 20%;
+    background: white;
+}
+
+#team .box{
+    float: left;
+    width: 29%;
+    text-align: center;
+    padding: 10px;
+}
+
+#team .box img{
+    border-radius: 50%;
+    width: 150px;
+    
+}
+
+#team h1 {
     text-align: center;
 }
