@@ -20,6 +20,10 @@ header {
     min-height: 70px;
     border-bottom:  #45a29e 8px solid;
 }
+#goog_sheet {
+    align-content: center;
+    height: 10000px;
+}
 
 header a {
     color: white;
