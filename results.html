@@ -26,13 +26,19 @@
             </nav>
         </div>
     </header>
-
-    <h1> Results </h1>
-    <div id="results_container"></div>
-    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
-    <script src="results.js"></script>
-    
+    <div id="model_results" >
+        <div id="top_results">
+            <h2> 2019 Draft Rankings:</h2>
+                <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSF87k2gW8Gcb5Rdc0-L7IZB-YSCyNder7jMOPrgcbQXvYkdDfRNQpZTmM-9PDY_KKz34LqZDGl5K4V/pubhtml?gid=140939271&amp;single=true&amp;widget=true&amp;headers=false" height="700" width="500"></iframe>
+        </div>
+        <div id="results_container">
+            <h2 align="center"> Model Validation Results </h2>
+            <p align="center"><iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ7p6ypnFTgnrmQSOt1VVFoaKx_-O8tJSTg4dOzhv-MwSSPADY8weL4xIkJhnc29KoyYVZc8XlwMWCb/pubhtml?widget=true&amp;headers=false" height="700" width="500"></iframe>
+       </div>
+        <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+        <script src="results.js"></script>
+    </div>
     
     
 </body>

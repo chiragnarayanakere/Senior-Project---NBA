@@ -21,6 +21,10 @@ header {
     border-bottom:  #45a29e 8px solid;
 }
 
+#model_results {
+    text-align: center;
+}
+
 header a {
     color: white;
     text-decoration: none;
